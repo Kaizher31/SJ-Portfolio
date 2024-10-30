@@ -22,19 +22,20 @@
 </head>
 <body>
     <!-- Header -->
-    <header>
-        <div>
-            <img src="./images/SJ-modified (1).ico" alt="logo">
-            <h1><a href="#">Kaizher</a></h1>
+    <header class="header">
+        <!-- BEM -->
+        <div class="header__logo">
+            <img class="header__logo__img" src="./images/SJ-modified.ico" alt="logo">
+            <h1 class="header__logo__title"><a href="#">Kaizher</a></h1>
         </div>
-        <nav>
-            <ul>
-                <li><a href="#home">홈</a></li>
-                <li><a href="#about">자기소개</a></li>
-                <li><a href="#skills">기술</a></li>
-                <li><a href="#work">포트폴리오</a></li>
-                <li><a href="#license">자격증</a></li>
-                <li><a href="#contact">연락처</a></li>
+        <nav class="header__nav">
+            <ul class="header__menu">
+                <li><a href="#home" class="header__menu__item active">홈</a></li>
+                <li><a href="#about" class="header__menu__item">자기소개</a></li>
+                <li><a href="#skills" class="header__menu__item">기술</a></li>
+                <li><a href="#work" class="header__menu__item">포트폴리오</a></li>
+                <li><a href="#license" class="header__menu__item">자격증</a></li>
+                <li><a href="#contact" class="header__menu__item">연락처</a></li>
             </ul>
         </nav>
     </header>
@@ -50,9 +51,9 @@
         </section>
 
         <!-- about -->
-        <section id="about">
-            <h2>김성준</h2>
-            <p>'자기소개'</p>
+        <section id="about" class="section max-container">
+            <h2 class="title">김성준</h2>
+            <p class="description">자기소개</p>
             <ul>
                 <li>
                     <i class="fa-brands fa-html5"> HTML</i>
@@ -82,9 +83,10 @@
         </section>
 
         <!-- skills -->
-        <section id="skills">
-            <h2>Technic</h2>
-            <p>Language and Tools</p>
+        <section id="skills" class="section">
+            <div class="max-container">
+            <h2 class="title">Technic</h2>
+            <p class="description">Language and Tools</p>
             <p>'할말'</p>
             <div>
                 <section>
@@ -129,12 +131,14 @@
                     </ul>
                 </section>
             </div>
+            </div>
         </section>
 
         <!-- work -->
-        <section id="work">
-            <h2>포트폴리오</h2>
-            <p>Projects</p>
+        <section id="work" class="section">
+            <div class="max-container">
+            <h2 class="title">포트폴리오</h2>
+            <p class="description">Projects</p>
             <ul>
                 <li><button>ALL <span>4</span></button></li>
                 <li><button>Front-end <span>2</span></button></li>
@@ -188,12 +192,13 @@
                     </a>
                 </li> -->
             </ul>
+            </div>
         </section>
 
         <!-- license -->
-        <section id="license">
-            <h2>자격증</h2>
-            <p>국가 기술 자격증</p>
+        <section id="license" class="section max-container">
+            <h2 class="title">자격증</h2>
+            <p class="description">국가 기술 자격증</p>
             <ul>
                 <li>
                     <img src="" alt="">
@@ -214,14 +219,16 @@
     </main>
 
     <!-- Footer -->
-    <footer id="contact" style="">
-        <h2>Call me</h2>
-        <p>연락처: secryuit401@naver.com</p>
+    <footer id="contact" class="section">
+        <div class="max-container">
+        <h2 class="title">Call me</h2>
+        <p class="description">연락처: secryuit401@naver.com</p>
         <ul>
             <li><a href="https://github.com/Kaizher31" target="_blank" title="Git-Hub"><i class="fa-brands fa-github"></i>Git-Hub</a></li>
             <li><a href="https://junsj0301.tistory.com/" target="_blank" title="Tistory Blog"><i class="fa-solid fa-link"></i>Tistory-Blog</a></li>
         </ul>
         <p>ⓒ Sung Jun - All rights reserved</p>
+        </div>
     </footer>
 </body>
 </html>
