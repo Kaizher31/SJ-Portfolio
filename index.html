@@ -25,7 +25,7 @@
     <header class="header">
         <!-- BEM -->
         <div class="header__logo">
-            <img class="header__logo__img" src="./images/SJ-modified.ico" alt="logo">
+            <img class="header__logo__img" src="./images/SJ.ico" alt="logo">
             <h1 class="header__logo__title"><a href="#">Kaizher</a></h1>
         </div>
         <nav class="header__nav">
@@ -44,10 +44,10 @@
     <main>
         <!-- Home -->
         <section id="home">
-            <img src="./images/SJ.ico" alt="SJ's profile">
-            <h2>안녕하세요. 김성준입니다.</h2>
-            <p> 초보 개발자</p>
-            <a href="#contatct"> Contact me</a>
+            <img class="home__avatar" src="./images/SJ-modified.ico" alt="SJ's profile">
+            <h2 class="home__title">Welcome <br><strong class="home__title--strong">김성준's</strong> Portfolio.</h2>
+            <p class="home__description"> 초보 개발자</p>
+            <a class="home__contact" href="#contatct"> Contact me</a>
         </section>
 
         <!-- about -->
@@ -90,15 +90,43 @@
             <p>'할말'</p>
             <div>
                 <section>
-                    <h3>언어</h3>
+                    <h3>Language</h3>
                         <ul>
-                            <li>
+                            <li class="skill-item">
+                                <div class="skill-label">HTML</div>
+                                <div class="skill-bar-container">
+                                    <div class="skill-bar" style="width: 90%;"></div>
+                                </div>
+                                <div class="skill-percentage"> 90%</div>
+                            </li>
+                            <li class="skill-item">
+                                <div class="skill-label">Python</div>
+                                <div class="skill-bar-container">
+                                    <div class="skill-bar" style="width: 78%;"></div>
+                                </div>
+                                <div class="skill-percentage"> 78%</div>
+                            </li>
+                            <li class="skill-item">
+                                <div class="skill-label">CSS</div>
+                                <div class="skill-bar-container">
+                                    <div class="skill-bar" style="width: 50%;"></div>
+                                </div>
+                                <div class="skill-percentage"> 50%</div>
+                            </li>
+                            <li class="skill-item">
+                                <div class="skill-label">C/C++</div>
+                                <div class="skill-bar-container">
+                                    <div class="skill-bar" style="width: 75%;"></div>
+                                </div>
+                                <div class="skill-percentage"> 75%</div>
+                            </li>
+                            <!-- <li>
                                 <div><span>HTML</span><span> 98%</span></div>
                                 <div><div style="width: 98%;"></div></div>
                             </li>
                             <li>
                                 <div><span>Python</span><span> 78%</span></div>
-                                <div><div style="width: 78%;"></div></div>
+                                <div><div style="width: 70%;"></div></div>
                             </li>
                             <li>
                                 <div><span>CSS</span><span> 60%</span></div>
@@ -107,7 +135,7 @@
                             <li>
                                 <div><span>C/C++</span><span> 75%</span></div>
                                 <div><div style="width: 75%;"></div></div>
-                            </li>
+                            </li> -->
                         </ul>
                 </section>
 

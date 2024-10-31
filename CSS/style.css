@@ -113,4 +113,81 @@ button:focus { outline: 1px solid var(--color-accent);}
     border-radius: 4px;
 }
 
+/* Technic Skills 부분 스킬바 만들기 */
+.skill-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
 
+.skill-label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.skill-bar-container {
+    flex: 1;
+    background-color: #ddd;
+    border-radius: 4px;
+    margin: 0 10px;
+    height: 20px;
+    position: relative;
+}
+
+.skill-bar {
+    height: 100%;
+    background-color: var(--color-blue);
+    border-radius: 4px;
+}
+
+.skill-percentage {
+    min-width: 40px; /* 수치 너비 */
+    text-align: right;
+}
+
+/* Home */
+#home {
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    padding: 7rem 1rem 5rem;
+    text-align: center;
+
+}
+
+.home__avatar{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    border: 3px solid var(--color-text);
+    /* 이미지가 부모 요소의 크기에 맞춰 비율을 유지하면서 꽉 차도록 설정 */
+    object-fit: cover;
+}
+
+.home__title{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.home__title--strong{
+    color: var(--color-accent);
+}
+
+.home__description{
+    font-size: 1.5rem;
+}
+
+.home__contact{
+    display: inline-block;
+    background-color: var(--color-accent);
+    color: var(--color-black);
+    margin-top: 3rem;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.home__contact:hover{
+    background-color: transparent;
+    color: var(--color-text);
+    outline: 2px solid var(--color-accent);
+}
