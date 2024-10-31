@@ -73,7 +73,7 @@
             </ul>
             <ul class="jobs">
                 <li class="job">
-                    <img src="./images/Hanmi.jpg" alt="Hanmi logo">
+                    <img class="job__img" src="./images/Hanmi.jpg" alt="Hanmi logo">
                     <div>
                         <p class="job__name">한미약국</p>
                         <p class="job__period">2023/06~2024/06</p>
@@ -169,58 +169,79 @@
             <div class="max-container">
             <h2 class="title">포트폴리오</h2>
             <p class="description">Projects</p>
-            <ul>
-                <li><button>ALL <span>4</span></button></li>
-                <li><button>Front-end <span>2</span></button></li>
-                <li><button>Moblie <span>1</span></button></li>
-                <li><button>Back-end <span>1</span></button></li>
+            <ul class="categories">
+                <li>
+                    <button class="category category--selected">ALL <span class="category__count">4</span>
+                    </button>
+                </li>
+                <li>
+                    <button class="category">Front-end <span class="category__count">2</span>
+                    </button>
+                </li>
+                <li>
+                    <button class="category">Mobile <span class="category__count">1</span>
+                    </button>
+                </li>
+                <li>
+                    <button class="category">Back-end <span class="category__count">1</span>
+                    </button>
+                </li>
             </ul>
-            <ul>
-                <li>
+            <ul class="projects">
+                <li class="project">
                     <a href="#" target="_blank">
-                        <img src="./images/별자리 머신러닝.jpg" alt="project1">
-                        <div>
-                            <h3>Project #1</h3>
+                        <img src="./images/별자리 머신러닝.jpg" alt="project1" class="project__img">
+                        <div class="project__metadata">
+                            <h3 class="project__title">Project #1</h3>
                             <p>별자리 머신러닝</p>
                         </div>
                     </a>
                 </li>
-                <!-- <li>
+                <li class="project">
                     <a href="#" target="_blank">
-                        <img src=" " alt="project1">
-                        <div>
-                            <h3>Project #1</h3>
+                        <img src="./images/별자리 머신러닝.jpg" alt="project1" class="project__img">
+                        <div class="project__metadata">
+                            <h3 class="project__title">Project #1</h3>
                             <p>별자리 머신러닝</p>
                         </div>
                     </a>
                 </li>
-                <li>
+                <li class="project">
                     <a href="#" target="_blank">
-                        <img src=" " alt="project1">
-                        <div>
-                            <h3>Project #1</h3>
+                        <img src="./images/별자리 머신러닝.jpg" alt="project1" class="project__img">
+                        <div class="project__metadata">
+                            <h3 class="project__title">Project #1</h3>
                             <p>별자리 머신러닝</p>
                         </div>
                     </a>
                 </li>
-                <li>
+                <li class="project">
                     <a href="#" target="_blank">
-                        <img src=" " alt="project1">
-                        <div>
-                            <h3>Project #1</h3>
+                        <img src="./images/별자리 머신러닝.jpg" alt="project1" class="project__img">
+                        <div class="project__metadata">
+                            <h3 class="project__title">Project #1</h3>
                             <p>별자리 머신러닝</p>
                         </div>
                     </a>
                 </li>
-                <li>
+                <li class="project">
                     <a href="#" target="_blank">
-                        <img src=" " alt="project1">
-                        <div>
-                            <h3>Project #1</h3>
+                        <img src="./images/별자리 머신러닝.jpg" alt="project1" class="project__img">
+                        <div class="project__metadata">
+                            <h3 class="project__title">Project #1</h3>
                             <p>별자리 머신러닝</p>
                         </div>
                     </a>
-                </li> -->
+                </li>
+                <li class="project">
+                    <a href="#" target="_blank">
+                        <img src="./images/별자리 머신러닝.jpg" alt="project1" class="project__img">
+                        <div class="project__metadata">
+                            <h3 class="project__title">Project #1</h3>
+                            <p>별자리 머신러닝</p>
+                        </div>
+                    </a>
+                </li>
             </ul>
             </div>
         </section>
@@ -229,12 +250,32 @@
         <section id="license" class="section max-container">
             <h2 class="title">자격증</h2>
             <p class="description">국가 기술 자격증</p>
-            <ul>
-                <li>
-                    <img src="" alt="">
-                    <div>
-                        <p>'설명'</p>
-                        <p><a href="#">산업인력공단</a></p>
+            <ul class="licenses">
+                <li class="license">
+                    <img class="license__img" src="./images/license.png" alt="기술자격증">
+                    <div class="license__bubble">
+                        <p><a href="#" class="license__bubble__name">산업인력공단</a></p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.  Iure maxime dicta laborum explicabo animi perspiciatis delectus pariatur, quis saepe? Perspiciatis, officia nesciunt.
+                        </p>
+                    </div>
+                </li>
+                <li class="license">
+                    <img class="license__img" src="./images/license.png" alt="기술자격증">
+                    <div class="license__bubble">
+                        <p><a href="#" class="license__bubble__name">산업인력공단</a></p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.  Iure maxime dicta laborum explicabo animi perspiciatis delectus pariatur, quis saepe? Perspiciatis, officia nesciunt.
+                        </p>
+                    </div>
+                </li>
+                <li class="license">
+                    <img class="license__img" src="./images/license.png" alt="기술자격증">
+                    <div class="license__bubble">
+                        <p><a href="#" class="license__bubble__name">산업인력공단</a></p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.  Iure maxime dicta laborum explicabo animi perspiciatis delectus pariatur, quis saepe? Perspiciatis, officia nesciunt.
+                        </p>
                     </div>
                 </li>
             </ul>
@@ -242,7 +283,7 @@
 
         <!-- 화살표 맨위 -->
         <aside>
-            <a href="#home" title="위로">
+            <a class="arrow-up" href="#home" title="위로">
                 <i class="fa-solid fa-arrow-up"></i>
             </a>
         </aside>
@@ -253,9 +294,9 @@
         <div class="max-container">
         <h2 class="title">Call me</h2>
         <p class="description">연락처: secryuit401@naver.com</p>
-        <ul>
-            <li><a href="https://github.com/Kaizher31" target="_blank" title="Git-Hub"><i class="fa-brands fa-github"></i>Git-Hub</a></li>
-            <li><a href="https://junsj0301.tistory.com/" target="_blank" title="Tistory Blog"><i class="fa-solid fa-link"></i>Tistory-Blog</a></li>
+        <ul class="contact_links">
+            <li><a class="contact_link" href="https://github.com/Kaizher31" target="_blank" title="Git-Hub"><i class="fa-brands fa-github"></i>Git-Hub</a></li>
+            <li><a class="contact_link" href="https://junsj0301.tistory.com/" target="_blank" title="Tistory Blog"><i class="fa-solid fa-link"></i>Tistory-Blog</a></li>
         </ul>
         <p>ⓒ Sung Jun - All rights reserved</p>
         </div>
