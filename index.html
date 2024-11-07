@@ -15,6 +15,7 @@
 
     <!-- Web Fonts -->
     <link rel="stylesheet" href="./CSS/style.css">
+    <script src="./js/main.js" defer></script>
 
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/753000bb84.js" crossorigin="anonymous"></script>
@@ -38,16 +39,21 @@
                 <li><a href="#contact" class="header__menu__item">연락처</a></li>
             </ul>
         </nav>
+        <button class="header__toggle">
+            <i class="fa-solid fa-bars"></i>
+        </button>
     </header>
 
     <!-- Main -->
     <main>
         <!-- Home -->
         <section id="home">
-            <img class="home__avatar" src="./images/SJ-modified.ico" alt="SJ's profile">
-            <h2 class="home__title">Welcome <br><strong class="home__title--strong">김성준's</strong> Portfolio.</h2>
-            <p class="home__description"> 초보 개발자</p>
-            <a class="home__contact" href="#contatct"> Contact me</a>
+            <div class="home__container">
+                <img class="home__avatar" src="./images/SJ-modified.ico" alt="SJ's profile">
+                <h2 class="home__title">Welcome <br><strong class="home__title--strong">김성준's</strong> Portfolio.</h2>
+                <p class="home__description"> 초보 개발자</p>
+                <a class="home__contact" href="#contatct"> Contact me</a>
+            </div>
         </section>
 
         <!-- about -->
