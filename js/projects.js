@@ -38,6 +38,7 @@ function filterProjects(filter){
     //     projects.forEach(project => {
     //         project.style.display = 'block'
     //     })
+    
     projectsContainer.classList.add('anim-out')
     setTimeout(() =>{
         projectsContainer.classList.remove('anim-out')
